@@ -1,0 +1,23 @@
+5 CMD tricks to impress your friends
+by Atomic Boy www.youtube.com/user/AtomicBoyGaming
+
+1) Matrix effect
+@echo off
+color 0a
+:top
+echo %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random%
+goto top
+
+2) Remote shutdown
+In CMD: shutdown -i
+
+3) Text files
+for /l %%n in (1,1,[number]) do [name] >> [name]%%n.txt
+
+4) CMD title change
+in CMD: title [name]
+
+5) CMD color change
+CMD > properties > colors
+
+YouTube video: www.youtube.com/watch?v=WUqx8NJMZJg
